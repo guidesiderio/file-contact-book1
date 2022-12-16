@@ -10,3 +10,6 @@ contato1 = ('1', 'Maria Joaquina de Amaral Pereira Goes')
 contato2 = ('2', 'Carlos de Andrade')
 contato3 = ('3', 'Antônio da Silva')
 
+# Abre o arquivo para escrever no final
+minha_agenda = open(nome_arquivo, 'a')
+
