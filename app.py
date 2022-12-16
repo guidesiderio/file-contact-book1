@@ -13,3 +13,7 @@ contato3 = ('3', 'Antônio da Silva')
 # Abre o arquivo para escrever no final
 minha_agenda = open(nome_arquivo, 'a')
 
+# Salva os 3 contatos no arquivo
+meu_contato1 = contato1[0] + ', ' + contato1[1] + '\n'
+meu_contato2 = contato2[0] + ', ' + contato2[1] + '\n'
+meu_contato3 = contato3[0] + ', ' + contato3[1] + '\n'
