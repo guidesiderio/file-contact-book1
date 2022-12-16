@@ -17,3 +17,9 @@ minha_agenda = open(nome_arquivo, 'a')
 meu_contato1 = contato1[0] + ', ' + contato1[1] + '\n'
 meu_contato2 = contato2[0] + ', ' + contato2[1] + '\n'
 meu_contato3 = contato3[0] + ', ' + contato3[1] + '\n'
+
+minha_agenda.write(meu_contato1)
+minha_agenda.write(meu_contato2)
+minha_agenda.write(meu_contato3)
+
+minha_agenda.close()
