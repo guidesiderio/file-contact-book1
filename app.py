@@ -23,3 +23,10 @@ minha_agenda.write(meu_contato2)
 minha_agenda.write(meu_contato3)
 
 minha_agenda.close()
+
+# Lê o conteúdo do arquivo
+minha_agenda = open(nome_arquivo, 'r')
+for linha in minha_agenda:
+    print(linha, end='')
+minha_agenda.close()
+
